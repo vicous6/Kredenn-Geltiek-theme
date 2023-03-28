@@ -1,5 +1,10 @@
 <?php
 
-add_theme_support('title-tag');
+function KredennGeltiek_supports()
+{
+    add_theme_support('title-tag'); 
+    add_theme_support('post-thumbnails');
+}
+
 
 ?>
