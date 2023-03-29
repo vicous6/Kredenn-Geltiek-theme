@@ -1,6 +1,14 @@
-<?php get_header() ?>
+<?php 
+/*
+Template Name: Accueil
+*/  
 
-Yo tout le monde ! <?php wp_title(); ?>
+get_header(); 
+?>
+<h1>Lalala</h1>
+<?php  get_footer(); ?>
+    
 
-<?php get_footer() ?>
+
+
 
