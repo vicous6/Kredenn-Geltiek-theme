@@ -72,5 +72,8 @@ add_action( 'init', 'kg_register_post_types' );
     
 //     return $data;
 // }
-
+register_nav_menus( array(
+	'Navigation' => 'Menu Principal',
+	
+) );
 ?>
