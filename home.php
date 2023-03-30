@@ -1,8 +1,12 @@
 <?php
 
 get_header(); 
+
 ?>
-<h1><?php echo $title; ?></h1>
+
+<h1><?php the_field('titre'); ?></h1>
+<?php the_field('contenu'); ?>
+
     <div class="site__blog">
         <main class="site__content">
             <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
