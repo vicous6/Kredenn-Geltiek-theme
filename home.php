@@ -1,9 +1,11 @@
 <?php
-
+/*
+Template Name: actions
+*/  
 get_header(); 
 
 ?>
-<main id = "action">
+<main id = "actions">
 <section>
     <h1><?php the_field('titre'); ?></h1>
     <p><?php the_field('contenu'); ?></p>
