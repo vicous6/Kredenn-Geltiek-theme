@@ -3,7 +3,7 @@
 get_header(); 
 
 ?>
-
+<main id = "action">
 <section>
     <h1><?php the_field('titre'); ?></h1>
     <p><?php the_field('contenu'); ?></p>
@@ -38,6 +38,7 @@ get_header();
     </aside>
 </div> 
 
+</main>
 <?php 
 
 get_footer(); 
