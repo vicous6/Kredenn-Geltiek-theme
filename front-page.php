@@ -1,0 +1,23 @@
+<?php 
+/*
+Template Name: Accueil
+*/  
+
+get_header(); 
+?>
+
+<section>
+    <h1><?php the_field('titre'); ?></h1>
+    <p><?php the_field('contenu'); ?></p>
+</section>
+
+<?php  
+
+get_footer(); 
+
+?>
+    
+
+
+
+
