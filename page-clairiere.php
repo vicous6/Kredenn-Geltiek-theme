@@ -1,5 +1,7 @@
 <?php  
-
+/*
+Template Name: page-clairiere
+*/  
 get_header();
 
 ?>
