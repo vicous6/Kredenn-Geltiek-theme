@@ -4,20 +4,33 @@ Template Name: Les Actions
 */  
 get_header(); 
 ?>
-<div id = "actions">
-<section>
-    <h1><?php the_field('titre'); ?></h1>
-    <p><?php the_field('contenu'); ?></p>
-    <h2><?php the_field('titre1'); ?></h2>
-    <p><?php the_field('contenu1'); ?></p>
-    <h2><?php the_field('titre2'); ?></h2>
-    <p><?php the_field('contenu2'); ?></p>
-</section>
+<div id="actions">
+    <section>
+        <h1><?php the_field('titre'); ?></h1>
+        <p><?php the_field('contenu'); ?></p>
+        <ul>
+            <li>
+                <article>
+                    <h2><?php the_field('titre1'); ?></h2>
+                    <p><?php the_field('contenu1'); ?></p>
+                </article>
 
+            </li>
+            <li>
+            <article>
+                    <h2><?php the_field('titre2'); ?></h2>
+                    <p><?php the_field('contenu2'); ?></p>
+                </article>
+            </li>
+            <li>
+            <article>
+                    <h2><?php the_field('titre3'); ?></h2>
+                    <p><?php the_field('contenu3'); ?></p>
+                </article>
+            </li>
+        </ul>
+    </section>
 
-
-
-</div> 
 
 </div>
 <?php 
