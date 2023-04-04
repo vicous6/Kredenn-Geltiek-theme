@@ -1,7 +1,8 @@
 <?php
-
+/*
+Template Name: Les Actions
+*/  
 get_header(); 
-var_dump(the_field("titre"));
 ?>
 <div id = "actions">
 <section>
