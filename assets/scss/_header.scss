@@ -1,23 +1,107 @@
 #header
 {
+    margin: 5px;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid 5px rgba(107, 66, 5, 0.911);
+    
+
     aside
     {
-        h1
-        {
-            font-family: 'Irish Grover', cursive;
-        }
-        h2
-        {
-            font-family: 'Irish Grover', cursive;
-        }
-        h3
-        {
-            font-family: 'Irish Grover', cursive;
-        }
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        margin-top: 3vh;
 
-        p
+        section
         {
-            font-family: 'Irish Grover', cursive;
+            display: flex;
+            flex-direction: column;
+            gap: 1.4em;
+            
+
+            figure 
+            {
+                display: flex;
+                justify-content: center;
+
+                a 
+                {
+                    img 
+                    {
+                        height: 20vh;
+                        
+                    }
+                }
+            }
+
+            h1 
+            {
+                font-family: 'Irish Grover', cursive;
+                text-align: center;
+                font-size: 2.4em;
+                padding-bottom: 0.2em;
+                border-bottom: solid 2px;
+            }
         }
+        
+
+        nav 
+        {
+
+            .menu-navigation-container //div
+            {
+                
+
+                #menu-navigation //ul
+                {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1em;
+
+                    li 
+                    {
+                        text-align: center;
+                        height: 2.4em;
+                        overflow: hidden;
+                        float: right;
+                        
+                        a 
+                        {
+                        
+                            text-decoration: none;
+                            color: black;
+                            font-size: 1.6em;
+                            font-family: 'Sofadi One', cursive;
+                            width: auto;
+                        }
+
+                        a:hover 
+                        {
+                            
+                            color: rgba(107, 66, 5, 0.911);
+                            font-weight: 800;
+                        }
+
+                        .sub-menu
+                        {
+                            display: none;
+                            
+                        }
+      
+                    }
+
+                    li:hover .sub-menu
+                    {
+                        display: block;
+                    }
+
+                }
+            }
+            
+        }
+        
     }
 }
