@@ -52,6 +52,19 @@ table {
   border-spacing: 0;
 }
 
+#header aside h1 {
+  font-family: "Irish Grover", cursive;
+}
+#header aside h2 {
+  font-family: "Irish Grover", cursive;
+}
+#header aside h3 {
+  font-family: "Irish Grover", cursive;
+}
+#header aside p {
+  font-family: "Irish Grover", cursive;
+}
+
 html {
   font-size: 14px;
   scroll-behavior: smooth;

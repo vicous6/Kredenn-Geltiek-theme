@@ -18,16 +18,50 @@ $menuItems = getNavigationMenu();
         <title><?php echo get_bloginfo( 'name' );?></title>
     </head>
     <body>
-        <header class="header">
+        <header id="header">
             <aside>
-                <a href="#" class="logo">
-                    <img src="https://static.wixstatic.com/media/84770f_042ffa30c947807e7a43c51fa981b720.png/v1/fill/w_155,h_154,al_c,lg_1,q_85,enc_auto/84770f_042ffa30c947807e7a43c51fa981b720.png">
-                </a>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Enseignement</a></li>
-                    <li><a href="#">Les Actions</a></li>
-                </ul>
+                <nav>
+                    <figure>
+                        <a href="#" class="logo">
+                            <img src="https://static.wixstatic.com/media/84770f_042ffa30c947807e7a43c51fa981b720.png/v1/fill/w_155,h_154,al_c,lg_1,q_85,enc_auto/84770f_042ffa30c947807e7a43c51fa981b720.png">
+                        </a>
+                        <h1>La Kredenn Geltiek</h1>
+                    </figure>
+                    
+                    <?php 
+                    
+                    wp_nav_menu( array( 'theme_location' => 'Navigation' ) ); 
+
+                    ?>
+
+                    <!-- <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Enseignement</a></li>
+                        <li><a href="#">Les Actions</a></li>
+                        <li><a href="#">La Kredenn Geltiek</a>
+                            <ul>
+                                <li><a href="#">Services aux fidèles</a></li>
+                                <li><a href="#">La Branche Blanche</a></li>
+                                <li><a href="#">La Branche Rouge</a></li>
+                                <li><a href="#">La Branche Verte</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Les Clairières</a>
+                            <ul>
+                                <li><a href="#">Ialos ar Mor</a></li>
+                                <li><a href="#">Ialos ar C'Hoat</a></li>
+                                <li><a href="#">Maen Loar</a></li>
+                                <li><a href="#">Ialos al Lanv</a></li>
+                                <li><a href="#">Ialos ar Brekilian</a></li>
+                                <li><a href="#">Ialos al Lann</a></li>
+                                <li><a href="#">Ialos ar Douar</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Calendrier</a></li>
+                        <li><a href="#">KAD</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul> -->
+                </nav>
             </aside>
         </header>
         
