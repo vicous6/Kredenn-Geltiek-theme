@@ -171,7 +171,24 @@ body #accueil section p {
 }
 
 #enseignement {
-  body: pink;
+  padding: 3rem;
+  width: 70%;
+  margin: 0 auto;
+}
+#enseignement > h1 {
+  font-size: 2.8rem;
+  margin-bottom: 2.2rem;
+}
+#enseignement > h2 {
+  font-size: 2.1rem;
+  margin-bottom: 1.8rem;
+}
+#enseignement > p {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+#enseignement > p:nth-of-type(2n) {
+  margin-left: 5vh;
 }
 
 #kredenn-geltiek {
