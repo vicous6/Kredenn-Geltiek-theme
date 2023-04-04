@@ -1,7 +1,7 @@
 #header
 {
     margin: 5px;
-    height: 94vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -112,6 +112,20 @@
                         border: solid 5px rgba(107, 66, 5, 0.911);
                         
                     }
+
+                }
+            }
+
+            #social-icons
+            {
+                display: flex;
+                flex-direction: row;
+                gap: 2em;
+                justify-content: center;
+                margin-top: 5em;
+
+                li 
+                {
 
                 }
             }

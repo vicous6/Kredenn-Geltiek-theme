@@ -54,7 +54,7 @@ table {
 
 #header {
   margin: 5px;
-  height: 94vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -126,7 +126,13 @@ table {
   height: 22vh;
   border: solid 5px rgba(107, 66, 5, 0.911);
 }
-
+#header aside nav #social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 5em;
+}
 html {
   font-size: 14px;
   scroll-behavior: smooth;
@@ -144,19 +150,37 @@ body {
 }
 body #accueil {
   margin-left: 2vw;
-  margin-top: 2vh;
+  margin-top: 5px;
+}
+body #accueil section {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+body #accueil section h1:first-of-type {
+  display: none;
+}
+body #accueil section p:first-of-type {
+  display: none;
 }
 body #accueil section h1 {
   font-family: "Irish Grover", cursive;
+  font-size: 1.5em;
 }
 body #accueil section h2 {
   font-family: "Irish Grover", cursive;
+  font-size: 1.3em;
 }
 body #accueil section h3 {
   font-family: "Irish Grover", cursive;
+  font-size: 1.2em;
+}
+body #accueil section figure {
+  align-self: center;
 }
 body #accueil section p {
-  font-family: "Irish Grover", cursive;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
 }
 
 #calendrier {
