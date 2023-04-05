@@ -54,7 +54,6 @@ table {
 
 @media (min-width: 1440px) and (max-width: 2560px) {
   #header {
-    grid-column: 2/3;
     padding: 1em;
     margin: 5px;
     height: 90vh;
@@ -140,7 +139,6 @@ table {
 }
 @media (min-width: 1024px) and (max-width: 1439.99px) {
   #header {
-    grid-column: 2/3;
     padding: 1em;
     margin: 5px;
     height: 90vh;
@@ -375,6 +373,10 @@ table {
 }
 
 .tribe-common {
+  grid-column: 2/3;
+}
+
+#tribe-events-pg-template {
   grid-column: 2/3;
 }
 
