@@ -15,7 +15,11 @@ $menuItems = getNavigationMenu();
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sofadi+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
+
+        <script src="https://kit.fontawesome.com/2a74f636e2.js" crossorigin="anonymous"></script>
+
         <title><?php echo get_bloginfo( 'name' );?></title>
     </head>
     <body>
@@ -37,6 +41,11 @@ $menuItems = getNavigationMenu();
                     wp_nav_menu( array( 'theme_location' => 'Navigation' ) ); 
 
                     ?>
+
+                    <ul id="social-icons">
+                        <li><a href="https://www.youtube.com/channel/UCdVeNteVa2wF4LAVDn6VLsA?app=desktop"><span class="fa-brands fa-youtube fa-2xl" style="color: #e11414;"></span></a></li>
+                        <li><a href="https://m.facebook.com/kredenngeltiek/"><span class="fa-brands fa-facebook fa-2xl" style="color: #0d52c9;"></span></a></li>
+                    </ul>
                 
                     <!-- <ul>
                         <li><a href="#">Accueil</a></li>

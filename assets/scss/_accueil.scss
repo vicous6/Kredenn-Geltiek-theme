@@ -18,25 +18,54 @@ body
     #accueil
     {
         margin-left: 2vw;
-        margin-top: 2vh;
+        margin-top: 5px;
+
         section 
         {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+
+            h1:first-of-type 
+            {
+                display: none;
+            }
+
+            p:first-of-type
+            {
+                display: none;
+            }
+
             h1
             {
                 font-family: 'Irish Grover', cursive;
+                font-size: 1.5em;
             }
             h2
             {
                 font-family: 'Irish Grover', cursive;
+                font-size: 1.3em;
             }
             h3
             {
                 font-family: 'Irish Grover', cursive;
+                font-size: 1.2em;
+
+            }
+
+            figure 
+            {
+                align-self: center;
+                img 
+                {
+                    
+                }
             }
 
             p
             {
-                font-family: 'Irish Grover', cursive;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.2em;
             }
         }
     }
