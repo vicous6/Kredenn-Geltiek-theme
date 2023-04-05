@@ -1,136 +1,294 @@
-#header
+@media (min-width: 1440px) and (max-width: 2560px)
 {
-    margin: 5px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border: solid 5px rgba(107, 66, 5, 0.911);
-    
-
-    aside
+    #header
     {
+        padding: 1em;
+        margin: 5px;
+        height: 90vh;
         display: flex;
-        flex-direction: column;
-        gap: 3em;
-        margin-top: 3vh;
+        justify-content: center;
+        align-content: center;
+        border: solid 5px rgba(107, 66, 5, 0.911);
+        position: fixed;
         
 
-        section
+        aside
         {
             display: flex;
             flex-direction: column;
-            gap: 1.4em;
+            gap: 3em;
+            margin-top: 3vh;
             
 
-            figure 
+            section
             {
                 display: flex;
-                justify-content: center;
-
-                a 
-                {
-                    img 
-                    {
-                        height: 20vh;
-                        
-                    }
-                }
-            }
-
-            h1 
-            {
-                font-family: 'Irish Grover', cursive;
-                text-align: center;
-                font-size: 2.4em;
-                padding-bottom: 0.2em;
-                border-bottom: solid 2px;
-            }
-        }
-        
-
-        nav 
-        {
-            margin-top: 4vh;
-
-            .menu-navigation-container //div
-            {
+                flex-direction: column;
+                gap: 1.4em;
                 
 
-                #menu-navigation //ul
+                figure 
                 {
                     display: flex;
-                    flex-direction: column;
-                    gap: 1em;
+                    justify-content: center;
+
+                    a 
+                    {
+                        img 
+                        {
+                            height: 20vh;
+                            
+                        }
+                    }
+                }
+
+                h1 
+                {
+                    font-family: 'Irish Grover', cursive;
+                    text-align: center;
+                    font-size: 2.4em;
+                    padding-bottom: 0.2em;
+                    border-bottom: solid 2px;
+                }
+            }
+            
+
+            nav 
+            {
+                margin-top: 4vh;
+
+                .menu-navigation-container //div
+                {
+                    
+
+                    #menu-navigation //ul
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1em;
+
+                        li 
+                        {
+                            text-align: center;
+                            height: 2.4em;
+                            
+                            
+                            
+                            a 
+                            {
+                            
+                                text-decoration: none;
+                                color: black;
+                                font-size: 1.6em;
+                                font-family: 'Sofadi One', cursive;
+                                width: auto;
+                            }
+
+                            a:hover 
+                            {
+                                
+                                color: rgba(107, 66, 5, 0.911);
+                                font-weight: 800;
+                            }
+
+                            .sub-menu
+                            {
+                                visibility: hidden;
+                                opacity: 0;
+                                position: absolute;
+                                display: none;
+
+                            }
+        
+                        }
+
+                        li:hover .sub-menu
+                        {
+                            visibility: visible;
+                            opacity: 1;
+                            display: flex;
+                            flex-direction: column;
+                            background-color: white;
+                            padding-top: 1.2em;
+                            margin-left: 13vw;
+                            width: 17vw;
+                            height: 22vh;
+                            border: solid 5px rgba(107, 66, 5, 0.911);
+                            
+                        }
+
+                    }
+                }
+
+                #social-icons
+                {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 2em;
+                    justify-content: center;
+                    margin-top: 5em;
 
                     li 
                     {
-                        text-align: center;
-                        height: 2.4em;
-                        
-                        
-                        
-                        a 
-                        {
-                        
-                            text-decoration: none;
-                            color: black;
-                            font-size: 1.6em;
-                            font-family: 'Sofadi One', cursive;
-                            width: auto;
-                        }
 
-                        a:hover 
-                        {
-                            
-                            color: rgba(107, 66, 5, 0.911);
-                            font-weight: 800;
-                        }
-
-                        .sub-menu
-                        {
-                            visibility: hidden;
-                            opacity: 0;
-                            position: absolute;
-                            display: none;
-
-                        }
-      
                     }
-
-                    li:hover .sub-menu
-                    {
-                        visibility: visible;
-                        opacity: 1;
-                        display: flex;
-                        flex-direction: column;
-                        background-color: white;
-                        padding-top: 1.2em;
-                        margin-left: 13vw;
-                        width: 17vw;
-                        height: 22vh;
-                        border: solid 5px rgba(107, 66, 5, 0.911);
-                        
-                    }
-
                 }
-            }
-
-            #social-icons
-            {
-                display: flex;
-                flex-direction: row;
-                gap: 2em;
-                justify-content: center;
-                margin-top: 5em;
-
-                li 
-                {
-
-                }
+                
             }
             
         }
-        
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1439.99px)
+{
+    #header
+    {
+        padding: 1em;
+        margin: 5px;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border: solid 5px rgba(107, 66, 5, 0.911);
+        position: fixed;
+        
+
+        aside
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 3em;
+            margin-top: 3vh;
+            
+
+            section
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 1.4em;
+                
+
+                figure 
+                {
+                    display: flex;
+                    justify-content: center;
+
+                    a 
+                    {
+                        img 
+                        {
+                            height: 20vh;
+                            
+                        }
+                    }
+                }
+
+                h1 
+                {
+                    font-family: 'Irish Grover', cursive;
+                    text-align: center;
+                    font-size: 2.4em;
+                    padding-bottom: 0.2em;
+                    border-bottom: solid 2px;
+                }
+            }
+            
+
+            nav 
+            {
+                margin-top: 4vh;
+
+                .menu-navigation-container //div
+                {
+                    
+
+                    #menu-navigation //ul
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1em;
+
+                        li 
+                        {
+                            text-align: center;
+                            height: 2.4em;
+                            
+                            
+                            
+                            a 
+                            {
+                            
+                                text-decoration: none;
+                                color: black;
+                                font-size: 1.6em;
+                                font-family: 'Sofadi One', cursive;
+                                width: auto;
+                            }
+
+                            a:hover 
+                            {
+                                
+                                color: rgba(107, 66, 5, 0.911);
+                                font-weight: 800;
+                            }
+
+                            .sub-menu
+                            {
+                                visibility: hidden;
+                                opacity: 0;
+                                position: absolute;
+                                display: none;
+
+                            }
+        
+                        }
+
+                        li:hover .sub-menu
+                        {
+                            visibility: visible;
+                            opacity: 1;
+                            display: flex;
+                            flex-direction: column;
+                            background-color: white;
+                            padding-top: 1.2em;
+                            margin-left: 13vw;
+                            width: 17vw;
+                            height: 22vh;
+                            border: solid 5px rgba(107, 66, 5, 0.911);
+                            
+                        }
+
+                    }
+                }
+
+                #social-icons
+                {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 2em;
+                    justify-content: center;
+                    margin-top: 5em;
+
+                    li 
+                    {
+
+                    }
+                }
+                
+            }
+            
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.99px)
+{
+    
+}
+
+@media (min-width: 425px) and (max-width: 767.99px)
+{
+    
+}
+
