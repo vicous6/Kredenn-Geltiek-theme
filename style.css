@@ -432,11 +432,13 @@ table {
   font-family: "Irish Grover", cursive;
   font-size: 2.1rem;
   margin-bottom: 1.8rem;
+  text-align: center;
 }
 #enseignement > p {
   margin-bottom: 1.3rem;
   font-size: 1.6rem;
   padding-left: 1rem;
+  text-align: center;
 }
 
 #kredenn-geltiek {
