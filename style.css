@@ -196,7 +196,39 @@ body #accueil section p {
 }
 
 #enseignement {
-  body: pink;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-image: linear-gradient(45deg, hsl(160deg, 93%, 23%) 0%, hsl(148deg, 59%, 29%) 11%, hsl(136deg, 44%, 32%) 23%, hsl(119deg, 34%, 35%) 35%, hsl(102deg, 40%, 34%) 46%, hsl(90deg, 45%, 33%) 58%, hsl(79deg, 51%, 32%) 69%, hsl(70deg, 56%, 31%) 80%, hsl(62deg, 60%, 30%) 91%, hsl(55deg, 66%, 31%) 100%);
+  padding: 3rem;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#enseignement > h1 {
+  font-family: "Irish Grover", cursive;
+  font-size: 2.8rem;
+  margin-bottom: 2.2rem;
+}
+#enseignement > h2 {
+  font-family: "Irish Grover", cursive;
+  font-size: 2.1rem;
+  margin-bottom: 1.8rem;
+}
+#enseignement > p {
+  margin-bottom: 1.3rem;
+  font-size: 1.6rem;
+}
+#enseignement > p:nth-of-type(3) {
+  margin-left: 5vh;
+}
+#enseignement > p:nth-of-type(5) {
+  margin-left: 5vh;
+}
+#enseignement > p:nth-of-type(7) {
+  margin-left: 5vh;
+}
+#enseignement > p:nth-of-type(10) {
+  margin-left: 5vh;
 }
 
 #kredenn-geltiek {
