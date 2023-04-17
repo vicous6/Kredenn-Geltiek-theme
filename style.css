@@ -984,15 +984,20 @@ table {
   grid-column: 2/3;
   display: grid;
   height: 60vh;
-  width: 80%;
+  width: 90%;
   padding: 3rem;
-  min-height: 700px;
+  min-height: 785px;
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 2fr;
 }
 #clairiere > section:nth-of-type(1) {
+  display: grid;
   grid-row: 1/2;
+}
+#clairiere > section:nth-of-type(1) > figure {
+  align-self: center;
 }
 #clairiere > section:nth-of-type(1) > figure > img {
   width: 100%;

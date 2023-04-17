@@ -5,16 +5,18 @@
     grid-column: 2/3;
     display: grid;
     height:60vh;
-    width:80%;
+    width:90%;
     padding: 3rem;
-    min-height: 700px;
-   
+    min-height: 785px;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     grid-template-columns: 1fr 2fr;
     grid-template-rows:1fr 2fr;
   & > section:nth-of-type(1){
+    display:grid;
     grid-row:1/2;
         & > figure{
+            align-self:center;
             &> img{
                 width:100%;
             }
@@ -36,7 +38,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     &>figure{
-        &>image{
+        &>img{
             width:100%;
         }
     }
