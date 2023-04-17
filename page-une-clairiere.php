@@ -28,10 +28,19 @@ get_header();
 <section>
     <h2>Informations Spécifiques</h2>
 <p><?php the_field('information_specifique'); ?> </p>
-<p><?php the_field('lieu'); ?>" </p>
 </section>
 <section>
-    
+    <figure>
+
+    <img src = <?php the_field('image1'); ?> >
+
+    </figure>
+    <figure>
+
+        <img src = <?php the_field('image2'); ?> >
+        
+   </figure>
+   
 </section>
 </main>
 
