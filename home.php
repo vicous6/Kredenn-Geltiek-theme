@@ -4,7 +4,7 @@ Template Name: Les Actions
 */  
 get_header(); 
 ?>
-<div id="actions">
+<div id="les-actions">
     <section>
         <h1><?php the_field('titre'); ?></h1>
         <p><?php the_field('contenu'); ?></p>

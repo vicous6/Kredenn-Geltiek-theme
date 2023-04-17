@@ -468,4 +468,31 @@ table {
   padding-left: 1rem;
 }
 
+#les-actions {
+  grid-column: 2/3;
+  display: grid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-image: linear-gradient(45deg, hsl(160, 93%, 23%) 0%, hsl(148, 59%, 29%) 11%, hsl(136, 44%, 32%) 23%, hsl(119, 34%, 35%) 35%, hsl(102, 40%, 34%) 46%, hsl(90, 45%, 33%) 58%, hsl(79, 51%, 32%) 69%, hsl(70, 56%, 31%) 80%, hsl(62, 60%, 30%) 91%, hsl(55, 66%, 31%) 100%);
+  padding: 3rem;
+  width: 92%;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#les-actions > h1 {
+  text-align: center;
+  font-family: "Irish Grover", cursive;
+  font-size: 2.8rem;
+  margin-bottom: 2.2rem;
+}
+#les-actions > h2 {
+  font-family: "Irish Grover", cursive;
+  font-size: 2.1rem;
+  margin-bottom: 1.8rem;
+}
+#les-actions > p {
+  margin-bottom: 1.3rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
