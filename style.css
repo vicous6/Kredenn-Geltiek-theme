@@ -895,6 +895,7 @@ table {
 }
 
 #clairiere {
+  margin-top: 8vh;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   grid-column: 2/3;
   display: grid;
@@ -913,9 +914,20 @@ table {
 #clairiere > section:nth-of-type(1) > figure > img {
   width: 100%;
 }
+#clairiere > section:nth-of-type(2) {
+  min-width: 300px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr;
+}
 #clairiere > section:nth-of-type(3) {
   grid-column: 1/2;
+  display: grid;
+  grid-template-rows: 0.1fr 1fr;
 }
+#clairiere > section:nth-of-type(4) {
+  display: grid;
+}
+
 .tribe-common {
   grid-column: 2/3;
 }
@@ -963,13 +975,14 @@ table {
   font-family: Arial, Helvetica, sans-serif;
 }
 #enseignement > h1 {
+  line-height: 3.3rem;
   text-align: center;
   font-family: "Irish Grover", cursive;
   font-size: 2.8rem;
   margin-bottom: 2.2rem;
 }
 #enseignement > h2 {
-  line-height: 2rem;
+  line-height: 3.3rem;
   font-family: "Irish Grover", cursive;
   font-size: 2.1rem;
   margin-bottom: 1.8rem;
@@ -980,7 +993,7 @@ table {
   font-size: 1.6rem;
   padding-left: 1rem;
   text-align: center;
-  line-height: 2rem;
+  line-height: 3.3rem;
 }
 
 #kredenn-geltiek {
