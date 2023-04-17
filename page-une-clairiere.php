@@ -15,9 +15,11 @@ get_header();
 
 <section>
    <figure>
-        <img href = "<?php the_field('logo'); ?>" >
-        <h1><?php echo $slug; ?></h1>
+
+        <img src = <?php the_field('logo'); ?> >
+        
    </figure>
+   <h1><?php echo $slug; ?></h1>
 </section>
 <section>
 <p><?php the_field('contact'); ?>" </p>
