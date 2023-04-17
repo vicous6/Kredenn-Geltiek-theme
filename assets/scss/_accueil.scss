@@ -1,4 +1,4 @@
-@media (min-width: 1440px) and (max-width: 2560px)
+@media (min-width: 1440px)
 {
     html
     {
@@ -15,7 +15,7 @@
         width: 100vw;
         overflow-x: hidden;
         display: grid;
-        grid-template-columns: 1.8fr 8.2fr;
+        grid-template-columns: 2.5fr 8fr;
 
         #accueil
         {
@@ -26,20 +26,6 @@
             margin-right: 2vw;
             padding-left: 2em;
             padding-right: 2em;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-            background-image: linear-gradient(
-                45deg,
-                hsl(160deg 93% 23%) 0%,
-                hsl(148deg 59% 29%) 11%,
-                hsl(136deg 44% 32%) 23%,
-                hsl(119deg 34% 35%) 35%,
-                hsl(102deg 40% 34%) 46%,
-                hsl(90deg 45% 33%) 58%,
-                hsl(79deg 51% 32%) 69%,
-                hsl(70deg 56% 31%) 80%,
-                hsl(62deg 60% 30%) 91%,
-                hsl(55deg 66% 31%) 100%
-            );
 
             section 
             {
@@ -61,19 +47,19 @@
                 {
                     font-family: 'Irish Grover', cursive;
                     font-size: 2em;
-                    color: rgba(107, 66, 5, 0.911);
+                    color: black;
                 }
                 h2
                 {
                     font-family: 'Irish Grover', cursive;
                     font-size: 1.6em;
-                    color: rgba(107, 66, 5, 0.911);
+                    color: black;
                 }
                 h3
                 {
                     font-family: 'Irish Grover', cursive;
                     font-size: 1.4em;
-                    color: rgba(107, 66, 5, 0.911);
+                    color: black;
 
                 }
 
@@ -90,15 +76,46 @@
                 {
                     font-family: 'Roboto', sans-serif;
                     font-size: 1.2em;
-                    color: rgba(107, 66, 5, 0.911);
-                    font-weight: 800;
+                    color: black;
+                    padding-right: 5em;
+                    padding-left: 5em;
+                    line-height: 2em;
+                    
+                }
+
+                ul 
+                {
+                    li 
+                    {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.2em;
+                        color: black;
+                        padding-right: 5em;
+                        padding-left: 5em;
+                        line-height: 2em;
+                    }
+                }
+
+                #metaslider-id-177
+                {
+                    background-color: #f2eecb;
+                    padding: 2em;
+                    border-radius: 1.5em;
+                    border: solid 2.5px rgba(107, 66, 5, 0.911);
+
+                    img 
+                    {
+                        justify-self: center;
+                        align-self: center;
+                        border-radius: 1.5em;
+                    }
                 }
             }
         }
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1439.99px)
+@media (min-width: 1024px) and (max-width: 1439px)
 {
     html
     {
@@ -115,31 +132,17 @@
         width: 100vw;
         overflow-x: hidden;
         display: grid;
-        grid-template-columns: 1.8fr 8.2fr;
+        grid-template-columns: 2.5fr 8fr;
 
         #accueil
         {
-            
             grid-column: 2/3;
-            margin-left: 6vw;
+            grid-column: 2/3;
+            margin-left: 1vw;
             margin-top: 5px;
             margin-right: 2vw;
             padding-left: 2em;
             padding-right: 2em;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-            background-image: linear-gradient(
-                45deg,
-                hsl(160deg 93% 23%) 0%,
-                hsl(148deg 59% 29%) 11%,
-                hsl(136deg 44% 32%) 23%,
-                hsl(119deg 34% 35%) 35%,
-                hsl(102deg 40% 34%) 46%,
-                hsl(90deg 45% 33%) 58%,
-                hsl(79deg 51% 32%) 69%,
-                hsl(70deg 56% 31%) 80%,
-                hsl(62deg 60% 30%) 91%,
-                hsl(55deg 66% 31%) 100%
-            );
 
             section 
             {
@@ -161,19 +164,19 @@
                 {
                     font-family: 'Irish Grover', cursive;
                     font-size: 2em;
-                    color: rgba(107, 66, 5, 0.911);
+                    color: black;
                 }
                 h2
                 {
                     font-family: 'Irish Grover', cursive;
                     font-size: 1.6em;
-                    color: rgba(107, 66, 5, 0.911);
+                    color: black;
                 }
                 h3
                 {
                     font-family: 'Irish Grover', cursive;
                     font-size: 1.4em;
-                    color: rgba(107, 66, 5, 0.911);
+                    color: black;
 
                 }
 
@@ -190,20 +193,381 @@
                 {
                     font-family: 'Roboto', sans-serif;
                     font-size: 1.2em;
-                    color: rgba(107, 66, 5, 0.911);
-                    font-weight: 800;
+                    color: black;
+                    padding-right: 5em;
+                    padding-left: 5em;
+                    line-height: 2em;
+                    
+                }
+
+                ul 
+                {
+                    li 
+                    {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.2em;
+                        color: black;
+                        padding-right: 5em;
+                        padding-left: 5em;
+                        line-height: 2em;
+                    }
+                }
+
+                #metaslider-id-177
+                {
+                    background-color: #f2eecb;
+                    padding: 2em;
+                    border-radius: 1.5em;
+                    border: solid 2.5px rgba(107, 66, 5, 0.911);
+
+                    img 
+                    {
+                        justify-self: center;
+                        align-self: center;
+                        border-radius: 1.5em;
+                    }
                 }
             }
         }
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023.99px)
+@media (min-width: 768px) and (max-width: 1023px)
 {
-    
+    html
+    {
+        font-size: 14px;
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        min-height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+
+        #accueil
+        {
+            margin-left: 1vw;
+            margin-top: 5px;
+            margin-right: 2vw;
+            padding-left: 2em;
+            padding-right: 2em;
+
+            section 
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+
+                h1:first-of-type 
+                {
+                    display: none;
+                }
+
+                p:first-of-type
+                {
+                    display: none;
+                }
+
+                h1
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 2em;
+                    color: black;
+                }
+                h2
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 1.6em;
+                    color: black;
+                }
+                h3
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 1.4em;
+                    color: black;
+
+                }
+
+                figure 
+                {
+                    align-self: center;
+                    img 
+                    {
+                        
+                    }
+                }
+
+                p
+                {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.2em;
+                    color: black;
+                    padding-right: 5em;
+                    padding-left: 5em;
+                    line-height: 2em;
+                    
+                }
+
+                ul 
+                {
+                    li 
+                    {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.2em;
+                        color: black;
+                        padding-right: 5em;
+                        padding-left: 5em;
+                        line-height: 2em;
+                    }
+                }
+
+                #metaslider-id-177
+                {
+                    background-color: #f2eecb;
+                    padding: 2em;
+                    border-radius: 1.5em;
+                    border: solid 2.5px rgba(107, 66, 5, 0.911);
+
+                    img 
+                    {
+                        justify-self: center;
+                        align-self: center;
+                        border-radius: 1.5em;
+                    }
+                }
+            }
+        }
+    }
 }
 
-@media (min-width: 425px) and (max-width: 767.99px)
+@media (min-width: 427px) and (max-width: 767px)
 {
-    
+    html
+    {
+        font-size: 14px;
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        min-height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+
+        #accueil
+        {
+            margin-left: 1vw;
+            margin-top: 5px;
+            margin-right: 2vw;
+            padding-left: 2em;
+            padding-right: 2em;
+
+            section 
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+
+                h1:first-of-type 
+                {
+                    display: none;
+                }
+
+                p:first-of-type
+                {
+                    display: none;
+                }
+
+                h1
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 2em;
+                    color: black;
+                }
+                h2
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 1.6em;
+                    color: black;
+                }
+                h3
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 1.4em;
+                    color: black;
+
+                }
+
+                figure 
+                {
+                    align-self: center;
+                    img 
+                    {
+                        
+                    }
+                }
+
+                p
+                {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.2em;
+                    color: black;
+                    padding-right: 5em;
+                    padding-left: 5em;
+                    line-height: 2em;
+                    
+                }
+
+                ul 
+                {
+                    li 
+                    {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.2em;
+                        color: black;
+                        padding-right: 5em;
+                        padding-left: 5em;
+                        line-height: 2em;
+                    }
+                }
+
+                #metaslider-id-177
+                {
+                    background-color: #f2eecb;
+                    padding: 2em;
+                    border-radius: 1.5em;
+                    border: solid 2.5px rgba(107, 66, 5, 0.911);
+
+                    img 
+                    {
+                        justify-self: center;
+                        align-self: center;
+                        border-radius: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 426px)
+{
+    html
+    {
+        font-size: 14px;
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body
+    {
+        min-height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+
+        #accueil
+        {
+            margin-left: 1vw;
+            margin-top: 5px;
+            margin-right: 2vw;
+            padding-left: 2em;
+            padding-right: 2em;
+
+            section 
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+
+                h1:first-of-type 
+                {
+                    display: none;
+                }
+
+                p:first-of-type
+                {
+                    display: none;
+                }
+
+                h1
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 2em;
+                    color: black;
+                }
+                h2
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 1.6em;
+                    color: black;
+                }
+                h3
+                {
+                    font-family: 'Irish Grover', cursive;
+                    font-size: 1.4em;
+                    color: black;
+
+                }
+
+                figure 
+                {
+                    align-self: center;
+
+                    img 
+                    {
+                        width: auto;
+                    }
+                }
+
+                p
+                {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.2em;
+                    color: black;
+                    padding-right: 5em;
+                    padding-left: 5em;
+                    line-height: 2em;
+                    
+                }
+
+                ul 
+                {
+                    li 
+                    {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.2em;
+                        color: black;
+                        padding-right: 5em;
+                        padding-left: 5em;
+                        line-height: 2em;
+                    }
+                }
+
+                #metaslider-id-177
+                {
+                    background-color: #f2eecb;
+                    padding: 2em;
+                    border-radius: 1.5em;
+                    border: solid 2.5px rgba(107, 66, 5, 0.911);
+
+                    img 
+                    {
+                        justify-self: center;
+                        align-self: center;
+                        border-radius: 1.5em;
+                    }
+                }
+            }
+        }
+    }
 }
