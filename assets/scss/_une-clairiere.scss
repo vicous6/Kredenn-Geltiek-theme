@@ -23,6 +23,7 @@
         }
   }
   & > section:nth-of-type(2){
+    font-size:1.8rem;
     min-width: 300px;
     display:grid;
     grid-template-rows:1fr 1fr 2fr;
@@ -33,6 +34,12 @@
     grid-column:1/2;
     display:grid;
     grid-template-rows:0.1fr 1fr;
+    &>h2{
+        font-size:2rem;
+    }&>p{
+        line-height:3.3rem;
+
+    }
   }
   & > section:nth-of-type(4){
     padding: 0.1rem;
@@ -40,6 +47,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     &>figure{
+        padding:0.7rem;
         &>img{
             width: 100%;
     max-height: 450px;
