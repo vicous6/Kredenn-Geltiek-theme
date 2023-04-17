@@ -1018,6 +1018,7 @@ table {
 }
 #clairiere > section:nth-of-type(3) > h2 {
   font-size: 2rem;
+  font-weight: bold;
 }
 #clairiere > section:nth-of-type(3) > p {
   line-height: 3.3rem;
