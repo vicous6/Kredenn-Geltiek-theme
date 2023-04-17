@@ -21,8 +21,8 @@ get_header();
    </figure>
 </section>
 <section>
-<p><?php the_field('contact'); ?> </p>
-<p><?php the_field('lieu'); ?>" </p>
+<p>Contact : <?php the_field('contact'); ?> </p>
+<p>Lieux de rituélie : <?php the_field('lieu'); ?>" </p>
 <p><?php the_field('description'); ?>" </p>
 </section>
 <section>
