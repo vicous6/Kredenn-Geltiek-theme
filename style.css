@@ -903,6 +903,7 @@ table {
   height: 60vh;
   width: 80%;
   padding: 3rem;
+  margin-top: 10vh;
   margin-top: 5px;
   font-family: Arial, Helvetica, sans-serif;
   grid-template-columns: 1fr 2fr;
@@ -910,6 +911,9 @@ table {
 }
 #clairiere > section:nth-of-type(1) {
   grid-row: 1/2;
+}
+#clairiere > section:nth-of-type(1) > figure > img {
+  width: 100%;
 }
 #clairiere > section:nth-of-type(3) {
   grid-column: 1/2;
@@ -925,8 +929,6 @@ table {
 #contact {
   grid-column: 2/3;
   display: grid;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  background-image: linear-gradient(45deg, hsl(160, 93%, 23%) 0%, hsl(148, 59%, 29%) 11%, hsl(136, 44%, 32%) 23%, hsl(119, 34%, 35%) 35%, hsl(102, 40%, 34%) 46%, hsl(90, 45%, 33%) 58%, hsl(79, 51%, 32%) 69%, hsl(70, 56%, 31%) 80%, hsl(62, 60%, 30%) 91%, hsl(55, 66%, 31%) 100%);
   padding: 3rem;
   width: 92%;
   margin-top: 5px;
@@ -956,8 +958,6 @@ table {
 #enseignement {
   grid-column: 2/3;
   display: grid;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  background-image: linear-gradient(45deg, hsl(160, 93%, 23%) 0%, hsl(148, 59%, 29%) 11%, hsl(136, 44%, 32%) 23%, hsl(119, 34%, 35%) 35%, hsl(102, 40%, 34%) 46%, hsl(90, 45%, 33%) 58%, hsl(79, 51%, 32%) 69%, hsl(70, 56%, 31%) 80%, hsl(62, 60%, 30%) 91%, hsl(55, 66%, 31%) 100%);
   padding: 3rem;
   width: 92%;
   margin: 0 auto;
@@ -986,8 +986,6 @@ table {
 #kredenn-geltiek {
   grid-column: 2/3;
   display: grid;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  background-image: linear-gradient(45deg, hsl(160, 93%, 23%) 0%, hsl(148, 59%, 29%) 11%, hsl(136, 44%, 32%) 23%, hsl(119, 34%, 35%) 35%, hsl(102, 40%, 34%) 46%, hsl(90, 45%, 33%) 58%, hsl(79, 51%, 32%) 69%, hsl(70, 56%, 31%) 80%, hsl(62, 60%, 30%) 91%, hsl(55, 66%, 31%) 100%);
   padding: 3rem;
   width: 92%;
   margin-top: 5px;
@@ -1013,8 +1011,6 @@ table {
 #les-actions {
   grid-column: 2/3;
   display: grid;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  background-image: linear-gradient(45deg, hsl(160, 93%, 23%) 0%, hsl(148, 59%, 29%) 11%, hsl(136, 44%, 32%) 23%, hsl(119, 34%, 35%) 35%, hsl(102, 40%, 34%) 46%, hsl(90, 45%, 33%) 58%, hsl(79, 51%, 32%) 69%, hsl(70, 56%, 31%) 80%, hsl(62, 60%, 30%) 91%, hsl(55, 66%, 31%) 100%);
   padding: 3rem;
   width: 92%;
   margin-top: 5px;
