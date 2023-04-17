@@ -30,6 +30,12 @@
 
     &>p{
         font-size:1.8rem;
+        line-height:2rem;
+        width:92%;
+        margin:0 auto;
+        &>span{
+            font-weight:bold;
+        }
     }
   }
   & > section:nth-of-type(3){
@@ -40,7 +46,7 @@
         font-size:2rem;
         font-weight:bold;
     }&>p{
-        line-height:3.3rem;
+        line-height:2rem;
         font-size:1.8rem;
 
     }
