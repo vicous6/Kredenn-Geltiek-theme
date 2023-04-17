@@ -1003,14 +1003,14 @@ table {
   width: 100%;
 }
 #clairiere > section:nth-of-type(2) {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   min-width: 300px;
   display: grid;
   grid-template-rows: 1fr 1fr 2fr;
 }
 #clairiere > section:nth-of-type(2) > p {
-  font-size: 1.8rem;
-  line-height: 2rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
   width: 92%;
   margin: 0 auto;
 }
