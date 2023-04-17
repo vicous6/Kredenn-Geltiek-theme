@@ -2,7 +2,7 @@
 /*
 Template Name: Une clairière
 */  
-$slug = get_post_field( 'post_name', get_post() );
+
 
 get_header();
 
@@ -19,7 +19,6 @@ get_header();
         <img src = <?php the_field('logo'); ?> >
         
    </figure>
-   <h1><?php echo $slug; ?></h1>
 </section>
 <section>
 <p><?php the_field('contact'); ?>" </p>
