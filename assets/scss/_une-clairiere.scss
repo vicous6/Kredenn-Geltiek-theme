@@ -28,7 +28,7 @@
     display:grid;
     grid-template-rows:1fr 1fr 2fr;
 
-    &>p{
+    & > p{
         font-size:1.6rem;
         line-height:3rem;
         width:92%;
@@ -46,14 +46,14 @@
         font-size:2rem;
         font-weight:bold;
     }&>p{
-        line-height:2rem;
-        font-size:1.8rem;
+        line-height:3rem;
+        font-size:1.6rem;
 
     }
   }
   & > section:nth-of-type(4){
     padding: 0.1rem;
-    min-height: 509px;
+    min-height: 400px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     &>figure{
