@@ -22,7 +22,7 @@ get_header();
 </section>
 <section>
 <p><span>Contact :</span> <?php the_field('contact'); ?> </p>
-<p><span>Lieux de rituélie :</span> <?php the_field('lieu'); ?>" </p>
+<p><span>Lieux de rituélie :</span> <?php the_field('lieu'); ?></p>
 <p><?php the_field('description'); ?> </p>
 </section>
 <section>
