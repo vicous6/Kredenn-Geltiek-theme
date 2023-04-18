@@ -1313,12 +1313,15 @@ table {
 #les-actions > section > h1 {
   font-size: 2.4rem;
   line-height: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 #les-actions > section > p {
   font-size: 1.6rem;
   line-height: 3rem;
 }
 #les-actions > section > ul > li > article > h2 {
+  margin-top: 2rem;
   font-size: 2.2rem;
   text-align: center;
   line-height: 3rem;
