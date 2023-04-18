@@ -18,7 +18,7 @@
 
     &>section {
         display: grid;
-        grid-template-columns: 0.25fr 1fr;
+        grid-template-columns: 0.5fr 1fr;
 
         &>section:first-of-type {
             margin-top: 10rem;
@@ -31,6 +31,7 @@
                 &>a{
                     font-weight: bold;
                     text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
                 }
             }
         }
