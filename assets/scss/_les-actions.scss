@@ -7,27 +7,42 @@
     width: 92%;
     // margin:0 auto;
     margin-top: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+  
    
-    &>h1{
-       text-align: center;
-       font-family:  'Irish Grover', cursive;
-        font-size: 2.8rem;
-        margin-bottom: 2.2rem;
+   &> section{
+    // display:grid;
+    & > h1{
+        font-size:2.4rem;
+        line-height:3rem;
+        text-align:center;
+        margin-bottom:2rem;
+        font-family: "Irish Grover";
     }
-    &>p:nth-of-type(1){}
-    &>h2{
-        font-family:  'Irish Grover', cursive;
-        font-size: 2.1rem;
-        margin-bottom: 1.8rem;
-        // justify-self: flex-start;
+    & > p{
+        font-size:1.6rem;
+        line-height:3rem;
     }
-    &>p{
-        // justify-self: flex-end;
-        margin-bottom: 1.3rem;
-        font-size: 1.6rem;
-        padding-left: 1rem;
+    & > ul{
+        & > li{
+            &>article{
+                &>h2{
+                    font-family: "Irish Grover";
+                    margin-bottom:1rem;
+                    margin-top:2rem;
+                    font-size:2.2rem;
+                    text-align: center;
+                    line-height:3rem;
+                }
+                &>p{
+                    font-size:1.6rem;
+                    text-align: center;
+                    line-height:3rem;
+                }
+            }
         }
+    }
+
+   }
     
     
 }
