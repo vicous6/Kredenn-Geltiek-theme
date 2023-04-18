@@ -4,30 +4,39 @@
     display: grid;
     
     padding: 3rem;
-    width: 92%;
+    width: 80%;
     // margin:0 auto;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
    
     &>h1{
        text-align: center;
+       margin: auto;
        font-family:  'Irish Grover', cursive;
         font-size: 2.8rem;
-        margin-bottom: 2.2rem;
     }
-    &>p:nth-of-type(1){}
-    &>h2{
-        font-family:  'Irish Grover', cursive;
-        font-size: 2.1rem;
-        margin-bottom: 1.8rem;
-        // justify-self: flex-start;
-    }
-    &>p{
-        // justify-self: flex-end;
-        margin-bottom: 1.3rem;
-        font-size: 1.6rem;
-        padding-left: 1rem;
+
+    &>section {
+        display: grid;
+        grid-template-columns: 0.25fr 1fr;
+
+        &>section:first-of-type {
+            margin-top: 10rem;
+
+            &>p{
+                line-height: 2.5rem;
+                font-size: 1.6rem;
+                padding-left: 1rem;
+
+                &>a{
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
         }
-    
-    
+
+        &>section:last-of-type {
+            justify-self: center;
+        }
+    }
 }
