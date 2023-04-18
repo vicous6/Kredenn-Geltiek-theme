@@ -570,7 +570,7 @@ table {
     width: 100vw;
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 2.5fr 8fr;
+    grid-template-columns: 3fr 8fr;
   }
   body #accueil {
     grid-column: 2/3;
@@ -612,25 +612,25 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section #metaslider-id-211 {
     background-color: #f2eecb;
     padding: 2em;
     border-radius: 1.5em;
-    border: solid 2.5px rgba(107, 66, 5, 0.911);
+    border: solid 3px rgba(107, 66, 5, 0.911);
   }
   body #accueil section #metaslider-id-211 img {
     justify-self: center;
@@ -651,7 +651,7 @@ table {
     width: 100vw;
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 2.5fr 8fr;
+    grid-template-columns: 3fr 8fr;
   }
   body #accueil {
     grid-column: 2/3;
@@ -693,25 +693,25 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section #metaslider-id-211 {
     background-color: #f2eecb;
     padding: 2em;
     border-radius: 1.5em;
-    border: solid 2.5px rgba(107, 66, 5, 0.911);
+    border: solid 3px rgba(107, 66, 5, 0.911);
   }
   body #accueil section #metaslider-id-211 img {
     justify-self: center;
@@ -770,25 +770,25 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section #metaslider-id-211 {
     background-color: #f2eecb;
     padding: 2em;
     border-radius: 1.5em;
-    border: solid 2.5px rgba(107, 66, 5, 0.911);
+    border: solid 3px rgba(107, 66, 5, 0.911);
   }
   body #accueil section #metaslider-id-211 img {
     justify-self: center;
@@ -847,25 +847,25 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section #metaslider-id-211 {
     background-color: #f2eecb;
     padding: 2em;
     border-radius: 1.5em;
-    border: solid 2.5px rgba(107, 66, 5, 0.911);
+    border: solid 3px rgba(107, 66, 5, 0.911);
   }
   body #accueil section #metaslider-id-211 img {
     justify-self: center;
@@ -927,25 +927,25 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
   body #accueil section #metaslider-id-211 {
     background-color: #f2eecb;
     padding: 2em;
     border-radius: 1.5em;
-    border: solid 2.5px rgba(107, 66, 5, 0.911);
+    border: solid 3px rgba(107, 66, 5, 0.911);
   }
   body #accueil section #metaslider-id-211 img {
     justify-self: center;
