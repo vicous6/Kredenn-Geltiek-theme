@@ -1225,6 +1225,7 @@ table {
 #kad {
   grid-column: 2/3;
   display: grid;
+  overflow-y: hidden;
   padding: 3rem;
   width: 92%;
   margin: 0 auto;
@@ -1235,8 +1236,7 @@ table {
   line-height: 2.5rem;
   text-align: center;
   font-family: "Irish Grover", cursive;
-  font-size: 2.8rem;
-  margin-bottom: 2.2rem;
+  font-size: 2.4rem;
 }
 #kad > p {
   margin-bottom: 1.3rem;
@@ -1259,13 +1259,13 @@ table {
   line-height: 2.5rem;
   text-align: center;
   font-family: "Irish Grover", cursive;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   margin-bottom: 2.2rem;
 }
 #enseignement > h2 {
   line-height: 3.3rem;
   font-family: "Irish Grover", cursive;
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   margin-bottom: 1.8rem;
   text-align: center;
 }
@@ -1308,7 +1308,30 @@ table {
   padding: 3rem;
   width: 92%;
   margin-top: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+}
+#les-actions > section > h1 {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Irish Grover";
+}
+#les-actions > section > p {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+#les-actions > section > ul > li > article > h2 {
+  font-family: "Irish Grover";
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 3rem;
+}
+#les-actions > section > ul > li > article > p {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
