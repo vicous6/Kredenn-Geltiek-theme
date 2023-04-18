@@ -1321,6 +1321,7 @@ table {
   line-height: 3rem;
 }
 #les-actions > section > ul > li > article > h2 {
+  margin-bottom: 1rem;
   margin-top: 2rem;
   font-size: 2.2rem;
   text-align: center;
