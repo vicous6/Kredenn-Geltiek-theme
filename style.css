@@ -1259,7 +1259,7 @@ table {
   line-height: 2.5rem;
   text-align: center;
   font-family: "Irish Grover", cursive;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   margin-bottom: 2.2rem;
 }
 #enseignement > h2 {
@@ -1309,6 +1309,21 @@ table {
   width: 92%;
   margin-top: 5px;
   font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+}
+#les-actions > h1 {
+  font-size: 2.4rem;
+}
+#les-actions > p {
+  font-size: 1.6rem;
+}
+#les-actions > ul > li > article > h2 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+#les-actions > ul > li > article > p {
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
