@@ -581,18 +581,90 @@ table {
     padding-left: 2em;
     padding-right: 2em;
   }
+  body #accueil h1:first-of-type {
+    display: none;
+  }
+  body #accueil p:first-of-type {
+    display: none;
+  }
   body #accueil section {
     display: flex;
     flex-direction: column;
     gap: 2em;
   }
-  body #accueil section h1:first-of-type {
-    display: none;
+  body #accueil section ul:first-of-type li {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 3rem;
   }
-  body #accueil section p:first-of-type {
-    display: none;
+  body #accueil section ul:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+  }
+  body #accueil section ul:nth-of-type(2) li {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 3rem;
+    width: 35vw;
+  }
+  body #accueil section ul:nth-of-type(2) figure img {
+    border-radius: 2.5em;
+    width: 100%;
+  }
+  body #accueil section ul:nth-of-type(3) {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 14rem;
+  }
+  body #accueil section ul:nth-of-type(3) li {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 3rem;
+    width: 35vw;
+  }
+  body #accueil section ul:nth-of-type(3) figure img {
+    border-radius: 2.5em;
+    width: 100%;
+  }
+  body #accueil section ul:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  body #accueil section ul:nth-of-type(4) li:first-of-type {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: red;
+    line-height: 3rem;
+  }
+  body #accueil section ul:nth-of-type(4) li:last-of-type {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 3rem;
+  }
+  body #accueil section ul:nth-of-type(4) figure img {
+    border-radius: 2.5em;
+    width: 100%;
+  }
+  body #accueil section ul:last-of-type li:first-of-type {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  body #accueil section ul:last-of-type figure img {
+    border-radius: 2.5em;
   }
   body #accueil section h1 {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
     font-family: "Irish Grover", cursive;
     font-size: 2.4rem;
     color: black;
@@ -607,23 +679,10 @@ table {
     font-size: 2rem;
     color: black;
   }
-  body #accueil section figure {
-    align-self: center;
-  }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
-    padding-right: 5em;
-    padding-left: 5em;
-    line-height: 3rem;
-  }
-  body #accueil section ul li {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
-    color: black;
-    padding-right: 5em;
-    padding-left: 5em;
     line-height: 3rem;
   }
   body #accueil section #metaslider-id-211 {
@@ -693,7 +752,7 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -701,7 +760,7 @@ table {
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -770,7 +829,7 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -778,7 +837,7 @@ table {
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -847,7 +906,7 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -855,7 +914,7 @@ table {
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -927,7 +986,7 @@ table {
   }
   body #accueil section p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -935,7 +994,7 @@ table {
   }
   body #accueil section ul li {
     font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
     padding-right: 5em;
     padding-left: 5em;
@@ -1071,6 +1130,7 @@ table {
     overflow: hidden;
   }
   #contact section {
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -1104,6 +1164,7 @@ table {
     overflow: hidden;
   }
   #contact section {
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -1137,6 +1198,7 @@ table {
     overflow: hidden;
   }
   #contact section {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -1193,7 +1255,7 @@ table {
   #contact section ul {
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 4em;
     justify-content: center;
   }
 }
@@ -1228,7 +1290,7 @@ table {
   #contact section ul {
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 5em;
     justify-content: center;
   }
 }
