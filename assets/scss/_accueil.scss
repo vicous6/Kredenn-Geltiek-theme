@@ -50,6 +50,15 @@
                         font-size: 1.3rem;
                         color: black;
                         line-height: 3rem;
+
+                        a{
+                            text-decoration: none;
+                            font-weight: 800;
+                            color: rgba(107, 66, 5, 0.911);
+                        }
+                        a:hover{
+                            color: black;
+                        }
                     }
                 }
 
@@ -64,6 +73,15 @@
                         color: black;
                         line-height: 3rem;
                         width: 35vw;
+
+                        a{
+                            text-decoration: none;
+                            font-weight: 800;
+                            color: rgba(107, 66, 5, 0.911);
+                        }
+                        a:hover{
+                            color: black;
+                        }
                     }
 
                     figure{
@@ -86,6 +104,15 @@
                         color: black;
                         line-height: 3rem;
                         width: 35vw;
+
+                        a{
+                            text-decoration: none;
+                            font-weight: 800;
+                            color: rgba(107, 66, 5, 0.911);
+                        }
+                        a:hover{
+                            color: black;
+                        }
                     }
 
                     figure{
@@ -107,7 +134,15 @@
                         font-size: 1.3rem;
                         color: red;
                         line-height: 3rem;
-                        
+
+                        a{
+                            text-decoration: none;
+                            font-weight: 800;
+                            color: rgba(107, 66, 5, 0.911);
+                        }
+                        a:hover{
+                            color: black;
+                        }
                     }
                     li:last-of-type
                     {
@@ -115,6 +150,15 @@
                         font-size: 1.3rem;
                         color: black;
                         line-height: 3rem;
+
+                        a{
+                            text-decoration: none;
+                            font-weight: 800;
+                            color: rgba(107, 66, 5, 0.911);
+                        }
+                        a:hover{
+                            color: black;
+                        }
                         
                     }
 
@@ -137,6 +181,15 @@
                         line-height: 3rem;
                         display: flex;
                         flex-direction: row;
+                        
+                        a{
+                            text-decoration: none;
+                            font-weight: 800;
+                            color: rgba(107, 66, 5, 0.911);
+                        }
+                        a:hover{
+                            color: black;
+                        }
                     }
                 
                     figure{
