@@ -27,6 +27,41 @@
                 margin-bottom: 1.3rem;
                 font-size: 1.3rem;
                 padding-left: 1rem;
+                line-height: 3rem;
+                a{
+                    text-decoration: none;
+                    font-weight: 800;
+                    color: rgba(107, 66, 5, 0.911);
+                }
+                a:hover{
+                    color: black;
+                }
+            }
+
+            &>nav{
+                margin-bottom: 4vh;
+                display: flex;
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1em;
+                    li{
+                        background-color:  rgba(107, 66, 5, 0.911);
+                        a{
+                            line-height: 3.3rem;
+                            font-family: "Sofadi One", cursive;
+                            font-size: 1.8rem;
+                            text-align: center;
+                            text-decoration: none;
+                            color: white;
+                            padding: 0.4em;
+                        }
+        
+                        a:hover{
+                            box-shadow: 0 0 20px rgba(33,33,33); 
+                        }
+                    }
+                }
             }
         }
     }
