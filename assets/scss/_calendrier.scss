@@ -5,3 +5,31 @@
 #tribe-events-pg-template{
     grid-column: 2/3;
 }
+
+h1
+{
+	font-family: 'Irish Grover', cursive;
+	font-size: 2.4rem;
+	color: black;
+    text-align: center;
+
+}
+
+p:first-of-type {
+
+    margin-top: 5rem;
+}
+p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3rem;
+	color: black;
+	padding-right: 5em;
+	padding-left: 5em;
+	line-height: 3rem;
+}
+
+p:last-of-type {
+
+    margin-bottom: 5rem;
+}
