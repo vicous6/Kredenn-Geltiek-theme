@@ -12,15 +12,15 @@ get_header();
         <section>
             <?php the_field('contenu1'); ?>
         </section>
-        <section>
-            <?php the_field('image1'); ?>
-        </section>
-        <section>
-            <?php the_field('image2'); ?>
-        </section>
-        <section>
-            <?php the_field('image3'); ?>
-        </section>
+        <figure>
+            <img src = <?php the_field('image1'); ?> >
+        </figure>
+        <figure>
+            <img src = <?php the_field('image2'); ?> >
+        </figure>
+        <figure>
+            <img src = <?php the_field('image3'); ?> >
+        </figure>
         <section>
             <?php the_field('contenu2'); ?>
         </section>
@@ -30,15 +30,15 @@ get_header();
         <section>
             <?php the_field('contenu3'); ?>
         </section>
-        <section>
-            <?php the_field('image4'); ?>
-        </section>
-        <section>
-            <?php the_field('image5'); ?>
-        </section>
-        <section>
-            <?php the_field('image6'); ?>
-        </section>
+        <figure>
+            <img src = <?php the_field('image4'); ?> >
+        </figure>
+        <figure>
+            <img src = <?php the_field('image5'); ?> >
+        </figure>
+        <figure>
+            <img src = <?php the_field('image6'); ?> >
+        </figure>
         <section>
             <?php the_field('contenu4'); ?>
         </section>
@@ -48,9 +48,9 @@ get_header();
         <section>
             <?php the_field('contenu5'); ?>
         </section>
-        <section>
-            <?php the_field('image7'); ?>
-        </section>
+        <figure>
+            <img src = <?php the_field('image7'); ?> >
+        </figure>
         <section>
             <?php the_field('contenu6'); ?>
         </section>
