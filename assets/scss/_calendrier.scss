@@ -6,28 +6,21 @@
     grid-column: 2/3;
 }
 
-.tribe-events-before-html {
+h1
+{
+	font-family: 'Irish Grover', cursive;
+	font-size: 2.4rem;
+	color: black;
+    text-align: center;
 
-    &>section {
-        
-        margin-bottom: 3rem;
+}
 
-        &>h1
-        {
-            font-family: 'Irish Grover', cursive;
-            font-size: 2.4rem;
-            color: black;
-            text-align: center;
-        }
-
-        &>p
-        {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.3rem;
-            color: black;
-            padding-right: 5em;
-            padding-left: 5em;
-            line-height: 3rem;
-        }
-    }
+p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3rem;
+	color: black;
+	padding-right: 5em;
+	padding-left: 5em;
+	line-height: 3rem;
 }

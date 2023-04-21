@@ -1129,16 +1129,14 @@ table {
   grid-column: 2/3;
 }
 
-.tribe-events-before-html > section {
-  margin-bottom: 3rem;
-}
-.tribe-events-before-html > section > h1 {
+h1 {
   font-family: "Irish Grover", cursive;
   font-size: 2.4rem;
   color: black;
   text-align: center;
 }
-.tribe-events-before-html > section > p {
+
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   color: black;
