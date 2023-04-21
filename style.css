@@ -1081,10 +1081,6 @@ table {
   font-family: "Irish Grover", cursive;
   font-size: 2.8rem;
 }
-#clairieres > section {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr;
-}
 #clairieres > section > section:first-of-type > p {
   line-height: 2.5rem;
   font-size: 1.6rem;
