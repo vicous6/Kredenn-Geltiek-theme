@@ -181,16 +181,16 @@
 
                 #metaslider-id-211
                 {
-                    background-color: #f2eecb;
+                    background-color: white;
                     padding: 2em;
-                    border-radius: 1.5em;
-                    border: solid 3px rgba(107, 66, 5, 0.911);
+                    border: solid 0.5em rgba(107, 66, 5, 0.911);
+                    box-shadow: 10px 10px 5px rgba(107, 66, 5, 0.911);
 
                     img 
                     {
                         justify-self: center;
                         align-self: center;
-                        border-radius: 1.5em;
+                        width: 100%;
                     }
                 }
             }

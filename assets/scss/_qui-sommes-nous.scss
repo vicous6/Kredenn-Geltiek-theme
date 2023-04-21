@@ -1,0 +1,35 @@
+#qui-sommes-nous{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 90%;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    &>h1{
+        text-align: center;
+        font-family:  'Irish Grover', cursive;
+        font-size: 2.8rem;
+        margin-bottom: 2.2rem;
+    }
+
+    &>section{
+        &>section{
+            &>h2{
+                font-family:  'Irish Grover', cursive;
+                font-size: 1.8rem;
+                margin-bottom: 1.8rem;
+                
+            }
+
+            &>p{
+                margin-bottom: 1.3rem;
+                font-size: 1.3rem;
+                padding-left: 1rem;
+            }
+        }
+    }
+    
+    
+}
