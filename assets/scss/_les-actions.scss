@@ -33,6 +33,11 @@
                     text-align: center;
                     line-height:3rem;
                 }
+                &>figure{
+                    &>img{
+                        max-width: 400px;
+                    }
+                }
                 &>p{
                     font-size:1.6rem;
                     text-align: center;
