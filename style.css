@@ -1037,9 +1037,6 @@ table {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
 }
-#clairieres > section > section:first-of-type {
-  margin-top: 10rem;
-}
 #clairieres > section > section:first-of-type > p {
   line-height: 2.5rem;
   font-size: 1.6rem;
