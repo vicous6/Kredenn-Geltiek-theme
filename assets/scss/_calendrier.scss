@@ -6,7 +6,7 @@
     grid-column: 2/3;
 }
 
-#calendrier {
+.customize-support {
 
     grid-column: 2/3;
     display: grid;
@@ -19,7 +19,7 @@
     &>section {
         
         margin-bottom: 3rem;
-        
+
         &>h1
         {
             font-family: 'Irish Grover', cursive;
