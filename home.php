@@ -11,47 +11,49 @@ get_header();
         <ul>
             <li>
                 <article>
-                    <h2><?php the_field('titre1'); ?></h2>
-                    <p><?php the_field('contenu1'); ?></p>
                     <figure>
 
                         <img src = <?php the_field('image1'); ?> >
 
                     </figure>
+                    <h2><?php the_field('titre1'); ?></h2>
+                    <p><?php the_field('contenu1'); ?></p>
                 </article>
 
             </li>
             <li>
             <article>
+                <figure>
+
+                    <img src = <?php the_field('image2'); ?> >
+
+                </figure>
                     <h2><?php the_field('titre2'); ?></h2>
                     <p><?php the_field('contenu2'); ?></p>
-                    <figure>
-
-                        <img src = <?php the_field('image2'); ?> >
-
-                    </figure>
                 </article>
             </li>
             <li>
             <article>
-                    <h2><?php the_field('titre3'); ?></h2>
-                    <p><?php the_field('contenu3'); ?></p>
                     <figure>
 
                         <img src = <?php the_field('image3'); ?> >
 
                     </figure>
+                    <h2><?php the_field('titre3'); ?></h2>
+                    <p><?php the_field('contenu3'); ?></p>
+                    
                 </article>
             </li>
             <li>
             <article>
-                    <h2><?php the_field('titre4'); ?></h2>
-                    <p><?php the_field('contenu4'); ?></p>
                     <figure>
 
                         <img src = <?php the_field('image4'); ?> >
 
                     </figure>
+                    <h2><?php the_field('titre4'); ?></h2>
+                    <p><?php the_field('contenu4'); ?></p>
+                    
                 </article>
             </li>
         </ul>
