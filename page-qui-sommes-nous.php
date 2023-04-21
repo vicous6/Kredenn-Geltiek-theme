@@ -8,7 +8,7 @@ get_header();
 <main id = "qui-sommes-nous">
     <h1><?php the_field('titre'); ?></h1>
     <section>
-        <?php the_field('titre1'); ?>
+        <h2><?php the_field('titre1'); ?></h2>
         <section>
             <?php the_field('contenu1'); ?>
         </section>
@@ -26,7 +26,7 @@ get_header();
         </section>
     </section>
     <section>
-    <?php the_field('titre2'); ?>
+        <h2><?php the_field('titre2'); ?></h2>
         <section>
             <?php the_field('contenu3'); ?>
         </section>
@@ -44,7 +44,7 @@ get_header();
         </section>
     </section>
     <section>
-    <?php the_field('titre3'); ?>
+        <h2><?php the_field('titre3'); ?></h2>
         <section>
             <?php the_field('contenu5'); ?>
         </section>
