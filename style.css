@@ -1129,24 +1129,16 @@ table {
   grid-column: 2/3;
 }
 
-.customize-support {
-  grid-column: 2/3;
-  display: grid;
-  padding: 3rem;
-  width: 80%;
-  margin-top: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.customize-support > section {
+.tribe-events-before-html > section {
   margin-bottom: 3rem;
 }
-.customize-support > section > h1 {
+.tribe-events-before-html > section > h1 {
   font-family: "Irish Grover", cursive;
   font-size: 2.4rem;
   color: black;
   text-align: center;
 }
-.customize-support > section > p {
+.tribe-events-before-html > section > p {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   color: black;
