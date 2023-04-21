@@ -6,7 +6,7 @@ get_header();
 
 ?>
 <main id = "qui-sommes-nous">
-    <h1><?php the_field('titre'); ?></h1>
+    <h1><?php the_field('titre1'); ?></h1>
     <section>
         <h2><?php the_field('titre2'); ?></h2>
         <section>
