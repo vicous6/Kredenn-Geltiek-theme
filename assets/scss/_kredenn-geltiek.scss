@@ -6,7 +6,6 @@
     width: 92%;
     // margin:0 auto;
     margin-top: 5px;
-    font-family: Arial, Helvetica, sans-serif;
 
     &>h1 {
         text-align: center;
@@ -31,6 +30,7 @@
 
     &>ul {
         li {
+            font-family: "Roboto", sans-serif;
             margin-bottom: 1.3rem;
             font-size: 1.3rem;
             padding-left: 1rem;

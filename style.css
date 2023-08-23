@@ -1451,7 +1451,6 @@ p:last-of-type {
   padding: 3rem;
   width: 92%;
   margin-top: 5px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 #kredenn-geltiek > h1 {
   text-align: center;
@@ -1470,6 +1469,7 @@ p:last-of-type {
   padding-left: 1rem;
 }
 #kredenn-geltiek > ul li {
+  font-family: "Roboto", sans-serif;
   margin-bottom: 1.3rem;
   font-size: 1.3rem;
   padding-left: 1rem;
