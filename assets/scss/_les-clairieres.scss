@@ -17,9 +17,7 @@
     }
 
     &>section {
-        display: grid;
-        grid-template-columns: 0.5fr 1fr;
-
+ 
         &>section:first-of-type {
 
             &>p{

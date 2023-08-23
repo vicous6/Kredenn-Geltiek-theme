@@ -12,7 +12,7 @@ get_header();
             <?php the_field('contenu'); ?>
         </section>
         <section>
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YCU1vq-e7ptWp2Kd0biCiy9xzTZRGlc&ehbc=2E312F" width="640" height="480"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/7/embed?mid=1uvAY2abCCcVitfEPCTYHJbQ0RIZY6Sc&ehbc=2E312F" width="640" height="480"></iframe>
         </section>
     </section>
 </main>
